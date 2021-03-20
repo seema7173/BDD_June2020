@@ -1,0 +1,225 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 812242600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Techfios Page",
+            "match": {
+              "location": "StepDefinition.User_is_on_the_Techfios_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5377211500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User should be able to Login with valid credentials",
+        "description": "",
+        "id": "validate-techfios-login-functionality;user-should-be-able-to-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 869953101,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 133383701,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinition.User_enters_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2130834800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinition.user_enters_password_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6859932000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on sign in button",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 515500399,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should land on Dashboard Page",
+            "match": {
+              "location": "StepDefinition.user_should_land_on_Dashboard_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2124349701,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on bank and cash",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_bank_and_cash()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2828243900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on new account",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_new_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5899219101,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User fill up the form entering \"Expense\"and \"Savings\"and \"4500\"and \"a12345\"and \"Yusnab\"and \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Expense",
+                  "offset": 32
+                },
+                {
+                  "val": "Savings",
+                  "offset": 45
+                },
+                {
+                  "val": "4500",
+                  "offset": 58
+                },
+                {
+                  "val": "a12345",
+                  "offset": 68
+                },
+                {
+                  "val": "Yusnab",
+                  "offset": 80
+                },
+                {
+                  "val": "12345",
+                  "offset": 92
+                }
+              ],
+              "location": "StepDefinition.user_fill_up_the_form_entering_and_and_and_and_and(String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1641833300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click in Submit Button",
+            "match": {
+              "location": "StepDefinition.user_click_in_Submit_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3080219500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Should land on Account Page",
+            "match": {
+              "location": "StepDefinition.User_Should_land_on_Account_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Validate Techfios Login Functionality",
+    "description": "",
+    "id": "validate-techfios-login-functionality",
+    "keyword": "Feature",
+    "uri": "features/Login.feature"
+  }
+]
